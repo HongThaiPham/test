@@ -1,0 +1,24 @@
+.app-menu-layout {
+  display: flex;
+  -webkit-app-region: drag;
+  padding: 0.1em 0;
+}
+.app-menu-button {
+  margin: 0 0.1em;
+}
+
+.app-menu-button:hover {
+  cursor: pointer;
+}
+
+.app-menu-title {
+  flex: 1;
+  text-align: center;
+  font-size: 0.9em;
+  justify-content: center;
+  align-self: center;
+}
+
+.app-menu-action {
+  align-self: flex-end;
+}

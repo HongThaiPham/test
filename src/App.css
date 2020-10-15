@@ -59,3 +59,18 @@
 .site-layout-background {
   background: #fff;
 }
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.ant-layout-sider {
+  flex: 0 0 140px !important;
+  max-width: 140px !important;
+  min-width: 140px !important;
+  width: 140px !important;
+}

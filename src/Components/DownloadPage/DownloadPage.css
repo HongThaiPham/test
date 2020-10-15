@@ -1,0 +1,31 @@
+.download-page-layout {
+  padding: 0 0.5em;
+}
+
+.download-page-header {
+  padding: 0;
+}
+
+.download-button {
+  margin-left: 0.8em;
+}
+
+.download-info-layout {
+  display: flex;
+}
+
+.download-info-layout > div:first-child {
+  flex: 1;
+}
+.download-info-layout > div:last-child {
+  flex: 2;
+}
+
+.download-info-name {
+  padding: 1em 0;
+  width: 160px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+}

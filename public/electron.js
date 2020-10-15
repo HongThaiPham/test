@@ -1,11 +1,19 @@
 const electron = require("electron");
-const app = electron.app;
+const { app, Menu } = electron;
 const BrowserWindow = electron.BrowserWindow;
 const path = require("path");
 const isDev = require("electron-is-dev");
+const isMac = process.platform === "darwin";
+
 let mainWindow;
 function createWindow() {
-  mainWindow = new BrowserWindow({ width: 700, height: 400 });
+  mainWindow = new BrowserWindow({
+    width: 750,
+    height: 400,
+    resizable: false,
+    // autoHideMenuBar: true,
+    frame: false,
+  });
   mainWindow.loadURL(
     isDev
       ? "http://localhost:3000"
